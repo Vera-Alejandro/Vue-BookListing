@@ -1,6 +1,5 @@
 <template>
   <li>{{ book.title }}:{{ book.author }}</li>
-  <li v-for="book in books" :key="book.title">{{ book.title }}:{{ book.author }}</li>
 </template>
 
 <script>
