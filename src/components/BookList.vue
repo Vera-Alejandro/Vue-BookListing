@@ -7,9 +7,10 @@
 <script>
 export default {
   name: "BookList",
-  title: "All Books",
   data() {
-    return title;
+	  return {
+		title: "All Books",
+		};
   },
 };
 </script>
